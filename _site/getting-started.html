@@ -1,0 +1,275 @@
+<!doctype html>
+
+
+  <meta charset=utf-8>
+
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="description" content="I make things that don’t suck.">
+
+
+
+<title>
+  Getting Started
+  
+    · Chris Coles
+  
+
+</title>
+
+<link rel=alternate href="/feed/" type=application/atom+xml>
+
+<!-- There is no prepend: site.base here, it'll cause error 404 when site.base it defined -->
+<link rel=stylesheet href="/assets/css/app.css">
+
+<!-- browser-sync, don't remove this -->
+<!-- BS_INSERT -->
+
+
+
+<!-- Define a description for better SEO result, exclude homepage -->
+
+
+
+  
+    <meta name=description content="Quick Start">
+  
+
+
+
+<!-- Twitter Cards support, more info: https://dev.twitter.com/docs/cards -->
+
+  <meta name=twitter:card content="summary">
+  <meta name=twitter:site content="@sparanoid">
+  <meta name=twitter:creator content="@chrisrcoles">
+  <meta name=twitter:url content="http://sparanoid.com/getting-started.html">
+  <meta name=twitter:title content="Getting Started">
+  <meta name=twitter:description content="
+  Quick StartFork or clone the repo.Install dependencies with Ruby gem bundler and Node.js package manager npm.Copy _config.init.yml to _config.yml as your default configuration file.Run grunt serve.So in shor...
+">
+  
+
+
+
+<!-- Post / page specified styles -->
+
+
+<!-- Post specified styles -->
+<style>
+  body {
+    
+    
+  }
+
+  
+
+  
+
+  
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</style>
+
+
+<!-- Header, just a logo at the moment -->
+<header>
+  <a href="/" class=logo accesskey=x>
+    <h1>Chris Coles</h1>
+  </a>
+</header>
+
+
+<!-- Main navigation with current page / categoriy highlighted -->
+<nav class=navigation>
+  <ul>
+    
+      
+      <li >
+        <a href="/">
+          Home
+        </a>
+      </li>
+    
+      
+      <li >
+        <a href="/about/">
+          About
+        </a>
+      </li>
+    
+      
+      <li >
+        <a href="/projects/">
+          Projects
+        </a>
+      </li>
+    
+      
+      <li >
+        <a href="/thoughts/">
+          Thoughts
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+<!-- Main content wrap -->
+
+
+<main class="content 
+  
+" role=main>
+  
+
+<!-- Prepare for `lang` tag -->
+
+
+<!-- Prepare for image headers -->
+
+
+<!-- Prepare for SVG header styles -->
+
+
+<!-- Prepare for SVG header -->
+
+
+<!-- Prepare author meta -->
+
+  
+
+
+<!-- Article wrapper, limit width -->
+<article 
+  
+>
+
+  <!-- Post title -->
+  <header>
+    
+      <h1>
+        
+          Getting Started
+        
+      </h1>
+    
+
+    <small>By <span rel=author>Chris Coles</span> on <time datetime="2014-06-12T00:00:00+08:00">Jun 12, 2014</time></small>
+    
+
+  </header>
+
+  <!-- Post content -->
+  <div class="post-content">
+    <h2>Quick Start</h2>
+
+<ol>
+<li><a href="https://github.com/sparanoid/almace-scaffolding/fork">Fork</a> or clone the repo.</li>
+<li>Install dependencies with Ruby gem <a href="http://bundler.io/"><code>bundler</code></a> and Node.js package manager <a href="https://www.npmjs.org/"><code>npm</code></a>.</li>
+<li>Copy <code>_config.init.yml</code> to <code>_config.yml</code> as your default configuration file.</li>
+<li>Run <code>grunt serve</code>.</li>
+</ol>
+
+<p>So in short for geeks:</p>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>git clone git@github.com:sparanoid/almace-scaffolding.git
+<span class="nv">$ </span>bundle install <span class="o">&amp;&amp;</span> npm install
+<span class="nv">$ </span>cp _config.init.yml _config.yml
+<span class="nv">$ </span>grunt serve
+</code></pre></div>
+<h2>Download</h2>
+
+<p>Go to the <a href="https://github.com/sparanoid/almace-scaffolding">GitHub repository</a> for downloads, bug reports, and feature requests.</p>
+
+<h2>Upgrading</h2>
+
+<p>Upgrading templates is hard, it will be easy if you are&rsquo;re a casual blogger and keep every template file untouched. Just copy and paste all template files in <code>_assets</code>, <code>_includes</code>, and <code>_layouts</code>. If you change the templates directly, you have to compare them side to side.</p>
+
+<h2>Customizing</h2>
+
+<ul>
+<li>All custom settings can be configured at <code>_config.yml</code> (a copy of <a href="https://github.com/sparanoid/almace-scaffolding/blob/master/_config.init.yml"><code>_config.init.yml</code></a> you just duplicated since your first setup), it&rsquo;s well commented so you should really check it out.</li>
+<li>Additional variables are stored in <a href="https://github.com/sparanoid/almace-scaffolding/blob/master/_app/_data"><code>./_app/_data/</code></a> directory. They can be accessed by Jekyll. (<a href="http://jekyllrb.com/docs/datafiles/">More info</a>)</li>
+<li>Customize your site&rsquo;s look and fell by changing <a href="https://github.com/sparanoid/almace-scaffolding/blob/master/_app/assets/_less/custom.less"><code>./_app/assets/_less/custom.less</code></a>.</li>
+<li>Use your custom JavaScript snippets (Google Analytics, Typekit, etc.) in <a href="https://github.com/sparanoid/almace-scaffolding/blob/master/_app/_includes/js.html"><code>./_app/_includes/js.html</code></a>.</li>
+<li>You should also change <code>favicon.ico</code> and <code>apple-touch-icon.png</code> to yours.</li>
+<li>You can add Travis support for this project, simplly rename <a href="https://github.com/sparanoid/almace-scaffolding/blob/master/.travis.init.yml"><code>.travis.init.yml</code></a> to <code>.travis.yml</code>.</li>
+<li>Some tasks in <code>Gruntfile.coffee</code> are not used in this project, they&rsquo;re copied from my own <a href="https://github.com/sparanoid/sparanoid.com">website</a>, I&rsquo;ll keep them untouched in case you need these.</li>
+</ul>
+
+<h2>Managing Media</h2>
+
+<p>Media files are located in <code>/_app/assets/</code> and grouped by different formats:</p>
+
+<ul>
+<li><code>_js/</code>: JavaScript files, put all needed sctipts in this directoy will just work fine. All files in this directory will be automatically uglified and copied into <code>js/</code>. I don&rsquo;t expect to have many scripts so no complex &ldquo;vender&rdquo;, &ldquo;lib&rdquo;, or other fancy structures used for this project.</li>
+<li><code>_less/</code>: LESS stylesheets, the leading underscore makes sure this directory is excluded from Jekyll generated site.</li>
+<li><code>css/</code>:  CSS and its sourcemap files generated from LESS, it&rsquo;s gitignored.</li>
+<li><code>font/</code>: Web fonts</li>
+<li><code>img/</code>: Image assets, images used by template, personally I don&rsquo;t recommend put post images here, use a CDN instead.</li>
+<li><code>svg/</code>: The same as <code>img/</code>.</li>
+</ul>
+
+<h2>Advanced Usages</h2>
+
+<ul>
+<li><a href="http://sparanoid.com/lab/amsf/markup-example.html">Markup Example</a></li>
+<li><a href="http://sparanoid.com/lab/amsf/custom-html-markups.html">Custom HTML Markups</a></li>
+<li><a href="http://sparanoid.com/lab/amsf/custom-color-scheme.html">Custom Color Scheme</a></li>
+<li><a href="http://sparanoid.com/lab/amsf/custom-css.html">Unique Post Styling via Custom CSS</a></li>
+<li><a href="http://sparanoid.com/lab/amsf/svg-post-title.html">SVG Post Ttile</a></li>
+<li><a href="http://sparanoid.com/lab/amsf/external-link-post.html">External Link Post</a></li>
+<li><a href="http://sparanoid.com/lab/amsf/github-pages-setup.html">GitHub Pages Setup Guide</a></li>
+</ul>
+
+<h2>Tips</h2>
+
+<ul>
+<li>Not familer with <a href="http://daringfireball.net/projects/markdown/">Markdown</a>? Try <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a>.</li>
+<li>You can use Jekyll&rsquo;s <a href="http://jekyllrb.com/docs/templates/#code_snippet_highlighting">built-in syntax highlighting</a>, I&rsquo;ve included a default theme for this project.</li>
+<li><a href="https://help.github.com/articles/github-flavored-markdown#tables">Tables</a> and <a href="https://github.com/vmg/redcarpet#and-its-like-really-simple-to-use">footnotes</a> are also avaiables to use.</li>
+</ul>
+
+<h2>Other Notes</h2>
+
+<ul>
+<li><code>_config.yml</code> is git ignored from <code>.git/info/exclude</code> file</li>
+</ul>
+
+  </div>
+
+</article>
+
+</main>
+
+
+<!-- Footer section -->
+
+  <footer class=footer>
+    <ul>
+      <li><a href="/">Chris Coles</a></li>
+      
+        <li><a href="http://sparanoid.com/lab/amsf/" title="Chris Coles">AMSF</a></li>
+      
+      
+      <li><a href="/feed/" title="Feed - Atom (The Atom Syndication Format)">Atom</a></li>
+    </ul>
+  </footer>
+
+
+
+<!-- Insert scripts here -->
+<!-- The following code is an example use of including external JavaScript libraries -->
+
+
