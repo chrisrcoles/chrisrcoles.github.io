@@ -10,7 +10,7 @@
 
 
 <title>
-  External Link Post
+  Stereogram
   
     · Chris Coles
   
@@ -32,7 +32,7 @@
 
 
   
-    <meta name=description content="This is an example of Tumblr-like external link post. You can simply add the folloing setting to your post front-matter field:">
+    <meta name=description content="Stereogram is a program to share and interact with audio.">
   
 
 
@@ -42,10 +42,10 @@
   <meta name=twitter:card content="summary">
   <meta name=twitter:site content="@sparanoid">
   <meta name=twitter:creator content="@chrisrcoles">
-  <meta name=twitter:url content="http://sparanoid.com/external-link-post.html">
-  <meta name=twitter:title content="External Link Post">
+  <meta name=twitter:url content="http://sparanoid.com/stereogram.html">
+  <meta name=twitter:title content="Stereogram">
   <meta name=twitter:description content="
-  This is an example of Tumblr-like external link post. You can simply add the folloing setting to your post front-matter field:link: http://sparanoid.com/
+  Stereogram is a program to share and interact with audio. Listeners are encourage to generate snippets of what they thought was the most interesting piece of a track. The point of a snippet is to provide a p...
 ">
   
 
@@ -58,26 +58,80 @@
 <style>
   body {
     
+    color: #c28955;
+    
+    
+    background-color: #fefbed;
     
   }
 
   
-
+  a,
+  button {
+    color: #c28955;
+  }
   
 
   
+  ::selection {
+    color: #ff8500;
+  }
+  
+
+  
+  body:before, .logo {
+    background: #c28955;
+  }
+  
+    
+    .logo:hover {
+      background: #ff8500;
+    }
     
 
   
-
+  .navigation li a:hover,
+  .navigation li a:focus {
+    color: #9e4614;
+  }
   
 
   
+  .current a {
+    color: #ff8500;
+  }
 
+  .content a {
+    color: #ff8500;
+  }
   
 
   
+  .content code,
+  .content pre {
+    color: #39beb6;
+  }
+  
 
+  
+  .note,
+  .store,
+  .download {
+    border-left-color: #ff8500;
+  }
+  
+
+  
+  .external span {
+    background: #ff8500;
+  }
+  
+
+  
+  :target [rev=footnote],
+  :target [rel=footnote] {
+    color: #9e4614;
+  }
   
 </style>
 
@@ -161,21 +215,22 @@
     
       <h1>
         
-          <a href="http://sparanoid.com/" class=external>External Link Post <span></span></a>
+          <a href="http://ster-o-gram.herokuapp.com/" class=external>Stereogram <span></span></a>
         
       </h1>
     
 
-    <small>By <span rel=author>Chris Coles</span> on <time datetime="2014-02-01T00:00:00+08:00">Feb 01, 2014</time></small>
+    <small>By <span rel=author>Chris Coles</span> on <time datetime="2015-01-09T00:00:00+08:00">Jan 09, 2015</time></small>
     
 
   </header>
 
   <!-- Post content -->
   <div class="post-content">
-    <p>This is an example of Tumblr-like external link post. You can simply add the folloing setting to your post <a href="http://jekyllrb.com/docs/frontmatter/">front-matter field</a>:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">link: http://sparanoid.com/
-</code></pre></div>
+    <p>Stereogram is a program to share and interact with audio. Listeners are encourage to generate snippets of what they thought was the most interesting piece of a track. The point of a snippet is to provide a potential listener a short burst of exposure to a full track. A taste of something bigger.</p>
+
+<p class=download><a href="http://stere-o-gram.herokuapp.com/">Check it out</a> on Heroku!</p>
+
   </div>
 
 </article>
