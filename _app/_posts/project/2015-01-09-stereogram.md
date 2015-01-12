@@ -4,7 +4,7 @@ title: Stereogram
 category: work
 tag: project
 excerpt: Stereogram is a program to share and interact with audio.
-link: http://ster-o-gram.herokuapp.com/
+link: http://stere-o-gram.herokuapp.com/
 scheme-text: "#c28955"
 scheme-link: "#ff8500"
 scheme-hover: "#9e4614"
