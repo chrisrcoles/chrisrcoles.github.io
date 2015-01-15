@@ -15,4 +15,4 @@ scheme-bg-light: true
 
 Stereogram is a program to share and interact with audio. Listeners are encourage to generate snippets of what they thought was the most interesting piece of a track. The point of a snippet is to provide a potential listener a short burst of exposure to a full track. A taste of something bigger.
 
-<p class=download><a href="http://stere-o-gram.herokuapp.com/">Check it out</a> on Heroku!</p>
+<p class=download><a href="http://stere-o-gram.herokuapp.com/">Check it out</a> now!</p>
