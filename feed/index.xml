@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Chris Coles</title>
+  <subtitle>Creator | Programmer | Designer</subtitle>
+  <updated>2015-01-15T00:19:44-05:00</updated>
+  
+  <id>tag:chrisrcoles.github.io,2005:/</id>
+  <link rel="alternate" type="text/html" hreflang="en" href="http://chrisrcoles.github.io/"/>
+  <link rel="self" type="application/atom+xml" href="http://chrisrcoles.github.io/feed/"/>
+  <rights>Copyright © 2015, Chris Coles</rights>
+
+  <author>
+    <name>Chris Coles</name>
+    <uri>http://chrisrcoles.github.io/</uri>
+    <email>cryan.coles@gmail.com</email>
+  </author>
+
+  
+    
+      
+        
+      
+
+      
+
+      
+        
+      
+
+      <entry>
+        <title>Stereogram</title>
+        <id>tag:chrisrcoles.github.io,2015:/stereogram/</id>
+        <link rel="alternate" type="text/html" href="http://chrisrcoles.github.io/stereogram.html"/>
+        <updated>2015-01-09T00:00:00-05:00</updated>
+        <author>
+          <name>Chris Coles</name>
+          <uri>http://chrisrcoles.github.io</uri>
+          <email>cryan.coles@gmail.com</email>
+        </author>
+        <content type="html" xml:base="http://chrisrcoles.github.io/">
+          
+            &lt;p&gt;Stereogram is a program to share and interact with audio. Listeners are encourage to generate snippets of what they thought was the most interesting piece of a track. The point of a snippet is to provide a potential listener a short burst of exposure to a full track. A taste of something bigger.&lt;/p&gt;
+
+&lt;p class=download&gt;&lt;a href=&quot;http://stere-o-gram.herokuapp.com/&quot;&gt;Check it out&lt;/a&gt; now!&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://stere-o-gram.herokuapp.com/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+      </entry>
+    
+  
+    
+      
+        
+      
+
+      
+
+      
+        
+      
+
+      <entry>
+        <title>Operation Wing Girl</title>
+        <id>tag:chrisrcoles.github.io,2015:/operation-wing-girl/</id>
+        <link rel="alternate" type="text/html" href="http://chrisrcoles.github.io/operation-wing-girl.html"/>
+        <updated>2015-01-01T00:00:00-05:00</updated>
+        <author>
+          <name>Chris Coles</name>
+          <uri>http://chrisrcoles.github.io</uri>
+          <email>cryan.coles@gmail.com</email>
+        </author>
+        <content type="html" xml:base="http://chrisrcoles.github.io/">
+          
+            &lt;p&gt;Operation Wing Girl was recently created and has organically grown through Atlanta since its inception. The company has great ambitions of spreading throughout the nation to become the go-to social network for women of a broad range of backgrounds and professions seeking to connect with other women of similar interests; to expand their existing circle of friends; to expose themselves to new experiences in a supportive setting. The mission at Operation Wing Girl is to empower women by connecting them to others who want to do what they want to do &amp;ndash; when they want to do it. As the lead engineer for this project, I am responsible for creating and scaling the initial web application.&lt;/p&gt;
+
+&lt;p class=download&gt;&lt;a href=&quot;http://operationwinggirl.com/&quot;&gt;Check it out &lt;/a&gt;today!&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://www.operationwinggirl.com/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+      </entry>
+    
+  
+</feed>
