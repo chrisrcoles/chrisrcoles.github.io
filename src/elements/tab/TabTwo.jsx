@@ -28,7 +28,7 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
+                                                    <a href="/service">Sofware Development <span> - UI/UX</span></a>
                                                     Delight the user and make it work.
                                                 </li>
                                                 <li>
