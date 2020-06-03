@@ -12,8 +12,8 @@ import Helmet from "../component/common/Helmet";
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Software Engineer and Entrepreneur',
-        title: 'Hello, I’m <span>Chris Coles</span> I\'m a software.',
+        category: 'Software Engineer and Consultant',
+        title: 'Hello, I’m <span>Chris Coles</span>. Welcome to 1214C software consulting.',
         description: '',
         buttonText: '',
         buttonLink: ''
@@ -22,7 +22,7 @@ const SlideList = [
 class PersonalPortfolio extends Component{
     render(){
         let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'Hello! I am a seasoned Software Engineer with nearly 10+ years of experience building, leading, and managing software engineering projects and teams. Effectively collaborating with business, product owners, designers and development teams, I apply lean and agile software engineering practices to create digital products and solutions that are intuitive, reliable and simple for end users.\nI have deep expertise building complex web and mobile solutions in ridesharing, real estate tech, fintech, media, as well as non-profit, healthcare and civic tech. I specialize in building web and mobile platforms from the ground up.';
         return(
             <Fragment> 
                 <Helmet pageTitle="Personal Portfolio" />
@@ -69,7 +69,7 @@ class PersonalPortfolio extends Component{
                                             <p className="description">{description}</p>
                                         </div>
                                         <div className="row mt--30">
-                                            <TabTwo tabStyle="tab-style--1" />
+                                            {/*<TabTwo tabStyle="tab-style--1" />*/}
                                         </div>
                                     </div>
                                 </div>
