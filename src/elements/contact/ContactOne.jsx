@@ -19,8 +19,9 @@ class ContactOne extends Component{
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">Let's connect.</h2>
                                 <p className="description">I am available for freelance work. Connect with me via email:
-                                    <a href="mailto:admin@chriscoles.me"> admin@chriscoles.me</a> </p>
+                                    <a href="mailto:chris@twelvefourteen.co"> chris@twelvefourteen.co</a> </p>
                             </div>
+                            {/*
                             <div className="form-wrapper">
 
                                 <form>
@@ -69,6 +70,7 @@ class ContactOne extends Component{
                                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
                                 </form>
                             </div>
+                            */}
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">

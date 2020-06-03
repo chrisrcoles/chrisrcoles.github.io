@@ -13,7 +13,7 @@ const list = [
     {
         image: 'image-1',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Getting ticketss to the big show'
     },
     {
         image: 'image-2',

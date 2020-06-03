@@ -28,15 +28,15 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    Engineering leadership and management
+                                                    <a>Engineering leadership and management</a>
                                                     Successful in managing projects and teams from start to completion.
                                                 </li>
                                                 <li>
-                                                    Software architecture, engineering and development
+                                                    <a>Software architecture, engineering and development</a>
                                                     Proven technical leader with deep experience across a wide range of technologies.
                                                 </li>
                                                 <li>
-                                                    Business strategy and technical execution
+                                                    <a>Business strategy and technical execution</a>
                                                     Highly effective communicator and trust builder that joins juncture of business and engineering.
                                                 </li>
                                             </ul>
@@ -47,13 +47,13 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    CTO, Technical Co-founder<span> - DollaRide</span> 2017 - Current
+                                                    <a>CTO, Technical Co-founder<span> - DollaRide</span></a> 2017 - Current
                                                 </li>
                                                 <li>
-                                                    Software Engineering Consultant<span> - Truss Software </span> 2018 - Current
+                                                    <a>Software Engineering Consultant<span> - Truss Software </span></a> 2018 - Current
                                                 </li>
                                                 <li>
-                                                    Software Engineering Consultant<span> - Supportful </span> 2018
+                                                    <a>Software Engineering Consultant<span> - Supportful </span></a> 2018
                                                 </li>
                                                 <span>***Complete resume available upon request.***</span>
                                             </ul>
@@ -77,7 +77,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   BS in Political Science, Economics, Anthropology<span> - Columbia University, New York, NY</span> - 2011 (not completed)
+                                                   <a>BS in Political Science, Economics, Anthropology<span> - Columbia University, New York, NY</span></a> - 2011 (not completed)
                                                </li>
                                            </ul>
                                        </div>

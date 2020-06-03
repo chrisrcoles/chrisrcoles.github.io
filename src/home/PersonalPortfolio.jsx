@@ -22,7 +22,7 @@ const SlideList = [
 class PersonalPortfolio extends Component{
     render(){
         let title = 'About Me',
-        description = 'Hello! I am a seasoned Software Engineer with nearly 10+ years of experience building, leading, and managing software engineering projects and teams. Effectively collaborating with business, product owners, designers and development teams, I apply lean and agile software engineering practices to create digital products and solutions that are intuitive, reliable and simple for end users. I have deep expertise building complex web and mobile solutions in ridesharing, real estate tech, VC, fintech, media, as well as non-profit, healthcare and gov tech, across the public and private sectors.';
+        description = 'Hello! I am a seasoned Software Engineer with nearly 10+ years of experience building, leading, and managing software engineering projects and teams. Effectively collaborating with business, product owners, designers and development teams, I apply lean and agile software engineering practices to create digital products and solutions that are intuitive, reliable and simple for end users. I have deep expertise building web and mobile solutions to complex problems in industries like ridesharing, real estate tech, VC, fintech, media, as well as non-profit, healthcare and gov tech, across the public and private sectors.';
         return(
             <Fragment> 
                 <Helmet pageTitle="Personal Portfolio" />
@@ -107,7 +107,7 @@ class PersonalPortfolio extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">Case Studies</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Interested in learning more? See some of my work.</p>
                                     </div>
                                 </div>
                             </div>
