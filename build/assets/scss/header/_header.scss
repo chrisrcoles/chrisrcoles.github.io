@@ -90,6 +90,8 @@
         .logo {
             a {
                 img {
+                    width: 60px;
+                    height: 60px;
                     @media #{$sm-layout} {
                         width: 120px;
                     }
