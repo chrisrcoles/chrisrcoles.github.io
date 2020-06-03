@@ -7,7 +7,7 @@ import { FiX , FiMenu} from "react-icons/fi";
 
 const SocialShare = [
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/chrisrcoles'},
-    {Social: <FaGithub /> , link: 'https://www.github.com/in/chrisrcoles'},
+    {Social: <FaGithub /> , link: 'https://www.github.com/chrisrcoles'},
     // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
     // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/chrisrcoles'},
@@ -71,7 +71,6 @@ class Header extends Component{
                                 <li><Link smooth to="/#case-studies" >Case Studies</Link>
                                     <ul className="submenu">
                                         <li><Link to="/case-study/dollaride">Dollaride</Link></li>
-                                        {/*<li><Link to="/projects/truss">Truss</Link></li>*/}
                                         <li><Link to="/case-study/supportful">Supportful</Link></li>
                                     </ul>
                                 </li>

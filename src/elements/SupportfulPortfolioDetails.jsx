@@ -8,10 +8,10 @@ import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/dollaride1'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/company/dollaride'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/dollaride'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/dollaride'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/joinsupportful'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/company/supportful'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/joinsupportful'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/joinsupportful'},
 ]
 
 class DollaridePortfolioDetails extends Component{
@@ -61,12 +61,12 @@ class DollaridePortfolioDetails extends Component{
                                             <ul>
                                                 <div className="port-view">
                                                     <span>Project Types</span>
-                                                    <h4>Web Apps</h4>
+                                                    <h4>Responsive Web Apps</h4>
                                                 </div>
 
                                                 <div className="port-view">
                                                     <span>Program</span>
-                                                    <h4><a href="https://apps.apple.com/us/app/dollaride-passenger/id1234733176" target="_blank">View Project</a></h4>
+                                                    <h4><a href="https://www.supportful.com" target="_blank">View Project</a></h4>
                                                 </div>
                                             </ul>
                                         </div>
@@ -79,138 +79,73 @@ class DollaridePortfolioDetails extends Component{
                                             </ul>
                                         </div>
                                         <h3>Challenge</h3>
-                                        <p>Build a ride-sharing system for <a href="https://www.nytimes.com/2019/12/11/nyregion/dollar-van-app-nyc-dollaride.html"><span>dollar van</span></a> drivers and passengers that allows for passengers and drivers to complete ride requests, passengers to pay for a ride using their credit card, see a map of the nearest, live vans to them, see a real-time current location route tracker and estimated times of arrival that scales for 1200+ drivers, 120,000 daily passengers and 27 current routes. </p>
+                                        <p>Build a crowdsourcing platform that allows users to donate and raise money, request help and pay bills for themselves or others. </p>
                                         <h3>Why</h3>
-                                        <p>Since the 1980, dollar vans have catered to communities under-served by the city's subway and bus system, offering commuters in neighborhoods in Brooklyn, Bronx, Lower Manhattan, and Queens an affordable way to travel. Many New Yorkers live in 'transit deserts' - areas within an urban city that offer relatively low and/or poor transportation infrastructure. These are places where the nearest public transportation option is atleast a 15-minute walk. Dollaride offers a more reliable, efficient, flexible and fun way for passengers to connect with drivers and drivers to make more money. </p>
+                                        <p>People facing difficult times often could use the help of others in their community, including money, but also other things that might be helpful. Whether it be a tragic life circumstance like loosing a parent or a sudden serious illness, having the help from others can make a huge difference. By allowing individuals to create campaign pages to tell their story and raise funds for any type of hardship, from medical expenses, memorials and pets to tuition assistance, and missions trips, Supportful offers a less expensive, stressful and easier way for people to get help when they need it most.</p>
                                         <h3>What I Did</h3>
                                         <p>I took an idea from designs to execution: </p>
-                                        <h4>Five new web applications</h4>
+                                        <h4>Two new web applications</h4>
                                         <ul>
-                                            <li>iOS and Android Passenger Mobile App</li>
-                                            <li>iOS and Android Driver Mobile App</li>
-                                            <li>An API that allows drivers and passengers to make requests, interact with databases and third-party services.</li>
-                                            <li>A websocket application that allows the driver and passenger mobile apps to stay in sync.</li>
-                                            <li>An operator web application that allows the business operator to review operations and earnings.</li>
+                                            <li>A crowdsourcing web app</li>
+                                            <li>An API that allows users to crowdsource.</li>
                                         </ul>
-                                        <h4>Created Engineering Team Process and Culture</h4>
+                                        <h4>Agile Development Process</h4>
                                         <ul>
-                                            <li>Defined all processes around engineering culture, such as standards for code quality, automated testing and deployment, along with introducing agile practices like standups, retros, demos and sprint plannings.</li>
-                                            <li>Led all strategy and direction for engineering team.</li>
-                                        </ul>
-                                        <h4>Built and Led a top-notch engineering team</h4>
-                                        <ul>
-                                            <li>Recruited and managed application and infrastructure engineering teams.</li>
-                                            <li>Managed a series of overseas teams to deliver a project in time and budget.</li>
+                                            <li>Worked to define foundational agile practices for engineering team.</li>
+                                            <li>Led technical direction for original engineering team.</li>
                                         </ul>
 
                                         <div className="row">
-                                            {/* Start Single Portfolio */}
-                                            <div className="col-lg-3 col-md-3 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-flow-1.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* End Single Portfolio */}
-                                            {/* Start Single Portfolio */}
-                                            <div className="col-lg-3 col-md-3 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-flow-2.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* End Single Portfolio */}
-                                            {/* Start Single Portfolio */}
-                                            <div className="col-lg-3 col-md-3 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-flow-3.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* End Single Portfolio */}
-                                            {/* Start Single Portfolio */}
-                                            <div className="col-lg-3 col-md-3 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-flow-4.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* End Single Portfolio */}
-                                        </div>
-                                        <br></br>
-                                        <br></br>
-                                        <p>This is a portion of the ride request flow for a passenger on the iOS app, allowing a passenger to enter a destination, request a ride, identify their ride, pay and review a ride receipt.</p>
-                                        <br></br>
-                                        <div className="row">
-                                            <div className="col-lg-4 col-md-4 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-driver-flow-1.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4 col-md-4 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-driver-flow-2.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4 col-md-4 col-12">
-                                                <div className="related-work text-center mt--30">
-                                                    <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-driver-flow-3.png" alt="Portfolio-images"/>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br></br>
-                                        <p>This shows some of the iOS app screens, allowing a driver to see their earnings, passenger pickup and drop off lists, as well as their current location in relation to dropoffs and pickups.</p>
-                                        <div className="row">
                                             <div className="col-lg-12 col-md-12 col-12">
                                                 <div className="related-work text-center mt--30">
                                                     <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-operator-flow-1.png" alt="Portfolio-images"/>
+                                                        <a href="">
+                                                            <img src="/assets/images/portfolio/supportful-portfolio-1.png" alt="Portfolio-images"/>
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <br></br>
+                                        <p>This shows the main feature of the web app, Care Pages, the dashboard through which the user manages the campaign.</p>
+
                                         <div className="row">
-                                            <div className="col-lg-12 col-md-12 col-12">
+                                            <div className="col-lg-4 col-md-4 col-12">
                                                 <div className="related-work text-center mt--30">
                                                     <div className="thumb">
-                                                        <a href="/portfolio-details">
-                                                            <img src="/assets/images/portfolio/dollaride-operator-flow-2.png" alt="Portfolio-images"/>
+                                                        <a href="">
+                                                            <img src="/assets/images/portfolio/supportful-portfolio-2.png" alt="Portfolio-images"/>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-4 col-md-4 col-12">
+                                                <div className="related-work text-center mt--30">
+                                                    <div className="thumb">
+                                                        <a href="">
+                                                            <img src="/assets/images/portfolio/supportful-portfolio-3.png" alt="Portfolio-images"/>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-4 col-md-4 col-12">
+                                                <div className="related-work text-center mt--30">
+                                                    <div className="thumb">
+                                                        <a href="">
+                                                            <img src="/assets/images/portfolio/supportful-portfolio-4.png" alt="Portfolio-images"/>
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <br></br>
+                                    <br></br>
                                     <div className="inner row">
                                         <div className="col-lg-12">
                                             <h3>My Impact</h3>
-                                            <p>I took a highly complex idea and brought it to life in the form of a software platform that allows users to connect with each other in real-time. I led the efforts for the engineering, technical strategy and recruiting of the engineering team. I delivered a product that has ultimately gone on from $0 revenue to $500K in annual revenue. Ultimately, the person who hired me as a part time consultant ended up asking me to be their co-founder and partner to lead the engineering efforts in an expanded role.</p>
+                                            <p>I helped get this company off to the right start by helping them establish a strong technical foundation and engineering culture. Since then, Supportful has gone on to help over 20,000 families raise millions of dollars through this platform.</p>
                                         </div>
                                     </div>
                                     {/*

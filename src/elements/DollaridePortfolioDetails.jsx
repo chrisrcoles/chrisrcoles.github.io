@@ -61,7 +61,7 @@ class DollaridePortfolioDetails extends Component{
                                             <ul>
                                                 <div className="port-view">
                                                     <span>Project Types</span>
-                                                    <h4>Mobile Apps (iOS, Android), Web Apps</h4>
+                                                    <h4>Responsive Web Apps, Mobile Apps (iOS, Android)</h4>
                                                 </div>
 
                                                 <div className="port-view">
