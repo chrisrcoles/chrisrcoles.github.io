@@ -39,6 +39,7 @@ import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
 import DollaridePortfolioDetails from "./elements/DollaridePortfolioDetails";
+import SupportfulPortfolioDetails from "./elements/SupportfulPortfolioDetails";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -98,7 +99,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/case-study/dollaride`} component={DollaridePortfolioDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/case-study/supportful`} component={PortfolioDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/case-study/supportful`} component={SupportfulPortfolioDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 

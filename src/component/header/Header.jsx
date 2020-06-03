@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import { FiX , FiMenu } from "react-icons/fi";
 
 
@@ -52,7 +54,7 @@ class Header extends Component{
                 <div className="header-wrapper" id="header-wrapper">
                     <div className="header-left">
                         <div className="logo">
-                            <a href="/">
+                  F         <a href="/">
                                 {logoUrl}
                             </a>
                         </div>
@@ -60,17 +62,17 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li><Link to="#">Home</Link></li>
-                                <li><Link to="#about" >About</Link></li>
-                                <li><Link to="#clients" >Clients</Link></li>
-                                <li><Link to="#projects" >Case Studies</Link>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link smooth to="/#about" >About</Link></li>
+                                <li><Link smooth to="/#clients" >Clients</Link></li>
+                                <li><Link smooth to="/#case-studies" >Case Studies</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/projects/dollaride">Dollaride</Link></li>
+                                        <li><Link to="/case-study/dollaride">Dollaride</Link></li>
                                         {/*<li><Link to="/projects/truss">Truss</Link></li>*/}
-                                        <li><Link to="/projects/supportful">Supportful</Link></li>
+                                        <li><Link to="/case-study/supportful">Supportful</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link to="#contact" >Contact</Link></li>
+                                <li><Link to="/#contact" >Contact</Link></li>
                             </ul>
                         </nav>
 

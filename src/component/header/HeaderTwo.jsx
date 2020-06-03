@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import {FaTwitter, FaGithub ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 
@@ -63,17 +65,17 @@ class Header extends Component{
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
                             <ul className="mainmenu">
-                                <li><Link to="#">Home</Link></li>
-                                <li><Link to="#about" >About</Link></li>
-                                <li><Link to="#clients" >Clients</Link></li>
-                                <li><Link to="#projects" >Case Studies</Link>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link smooth to="/#about" >About</Link></li>
+                                <li><Link smooth to="/#clients" >Clients</Link></li>
+                                <li><Link smooth to="/#case-studies" >Case Studies</Link>
                                     <ul className="submenu">
                                         <li><Link to="/case-study/dollaride">Dollaride</Link></li>
                                         {/*<li><Link to="/projects/truss">Truss</Link></li>*/}
                                         <li><Link to="/case-study/supportful">Supportful</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link to="#contact" >Contact</Link></li>
+                                <li><Link smooth to="/#contact" >Contact</Link></li>
                             </ul>
                         </nav>
                     </div>

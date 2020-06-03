@@ -33,14 +33,14 @@ class DollaridePortfolioDetails extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="7">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">
-                                        Consultant to Co-Founder: How startups are built from the ground up</h2>
-                                    <p>Dollaride: A Case Study </p>
+                                        How I helped Supportful go from no code to over 20,000 families helped</h2>
+                                    <p>Supportful: A Case Study </p>
                                 </div>
                             </div>
                         </div>
@@ -55,13 +55,13 @@ class DollaridePortfolioDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
                                     <div className="inner">
-                                        <h2>Dollaride</h2>
-                                        <p className="subtitle">Dollaride is a mobility company that provides a unique transportation service for people living in transit desserts.</p>
+                                        <h2>Supportful</h2>
+                                        <p className="subtitle">Supportful is a crowdsourcing platform, enabling people facing hardships to raise money and request help with supplies, meals and errands.</p>
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <ul>
                                                 <div className="port-view">
                                                     <span>Project Types</span>
-                                                    <h4>Mobile Apps (iOS, Android), Web Apps</h4>
+                                                    <h4>Web Apps</h4>
                                                 </div>
 
                                                 <div className="port-view">

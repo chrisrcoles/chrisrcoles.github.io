@@ -20,6 +20,11 @@ const SlideList = [
     }
 ]
 class PersonalPortfolio extends Component{
+
+    componentDidMount() {
+        console.log('state here = ')
+        console.log(this.state)
+    }
     render(){
         let title = 'About Me',
         description = 'Hello! I am a seasoned Software Engineer with nearly 10+ years of experience building, leading, and managing software engineering projects and teams. Effectively collaborating with business, product owners, designers and development teams, I apply lean and agile software engineering practices to create digital products and solutions that are intuitive, reliable and simple for end users. I have deep expertise building web and mobile solutions to complex problems in industries like ridesharing, real estate tech, VC, fintech, media, as well as non-profit, healthcare and gov tech, across the public and private sectors.';
@@ -53,7 +58,7 @@ class PersonalPortfolio extends Component{
                 {/* End Slider Area   */}
 
                 {/* Start About Area */}
-                <div id="about" className="about-area about-position-top pb--120  bg_color--1">
+                <div className="about-area about-position-top pb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
                             <div className="row row--35 align-items-center">
@@ -65,7 +70,7 @@ class PersonalPortfolio extends Component{
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">{title}</h2>
+                                            <h2 id="about" className="title">{title}</h2>
                                             <p className="description">{description}</p>
                                         </div>
                                         <div className="row mt--30">
@@ -80,12 +85,12 @@ class PersonalPortfolio extends Component{
                 {/* End About Area */}
 
                 {/* Start Clients Area */}
-                <div id="clients" className="rn-brand-area pb--120 bg_color--1">
+                <div className="rn-brand-area pb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">Clients</h2>
+                                    <h2 id="clients" className="title">Clients</h2>
                                     <p>Here are some of the past companies that have entrusted me.</p>
                                 </div>
                             </div>
@@ -106,7 +111,7 @@ class PersonalPortfolio extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">Case Studies</h2>
+                                        <h2 id="case-studies" className="title">Case Studies</h2>
                                         <p>Interested in learning more? See some of my work.</p>
                                     </div>
                                 </div>
@@ -129,7 +134,7 @@ class PersonalPortfolio extends Component{
                 {/* End Case Studies Area */}
 
                 {/* Start Contact Area */}
-                <div className="portfolio-area pb--120 bg_color--1">
+                <div id="contact" className="portfolio-area pb--120 bg_color--1">
                     <ContactOne />
                 </div>
                 {/* End Contact Area */}
