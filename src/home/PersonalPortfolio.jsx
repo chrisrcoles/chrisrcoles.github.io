@@ -22,7 +22,7 @@ const SlideList = [
 class PersonalPortfolio extends Component{
     render(){
         let title = 'About Me',
-        description = 'Hello! I am a seasoned Software Engineer with nearly 10+ years of experience building, leading, and managing software engineering projects and teams. Effectively collaborating with business, product owners, designers and development teams, I apply lean and agile software engineering practices to create digital products and solutions that are intuitive, reliable and simple for end users.\nI have deep expertise building complex web and mobile solutions in ridesharing, real estate tech, fintech, media, as well as non-profit, healthcare and civic tech. I specialize in building web and mobile platforms from the ground up.';
+        description = 'Hello! I am a seasoned Software Engineer with nearly 10+ years of experience building, leading, and managing software engineering projects and teams. Effectively collaborating with business, product owners, designers and development teams, I apply lean and agile software engineering practices to create digital products and solutions that are intuitive, reliable and simple for end users. I have deep expertise building complex web and mobile solutions in ridesharing, real estate tech, VC, fintech, media, as well as non-profit, healthcare and gov tech, across the public and private sectors.';
         return(
             <Fragment> 
                 <Helmet pageTitle="Personal Portfolio" />
@@ -63,13 +63,13 @@ class PersonalPortfolio extends Component{
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
-                                    <div className="about-inner inner pt--100">
+                                    <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">{title}</h2>
                                             <p className="description">{description}</p>
                                         </div>
                                         <div className="row mt--30">
-                                            {/*<TabTwo tabStyle="tab-style--1" />*/}
+                                            <TabTwo tabStyle="tab-style--1" />
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ class PersonalPortfolio extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
                                     <h2 className="title">Clients</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Here are some of the past companies that have entrusted me.</p>
                                 </div>
                             </div>
                         </div>

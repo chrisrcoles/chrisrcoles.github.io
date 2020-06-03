@@ -5,9 +5,9 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab2 = "Experience",
+        tab3 = "Publications",
+        tab4 = "Education";
         const { tabStyle } = this.props
         return(
             <div>
@@ -28,17 +28,34 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">Sofware Development <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    Engineering leadership and management
+                                                    Successful in managing projects and teams from start to completion.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    Software architecture, engineering and development
+                                                    Proven technical leader with deep experience across a wide range of technologies.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
+                                                    Business strategy and technical execution
+                                                    Highly effective communicator and trust builder that joins juncture of business and engineering.
                                                 </li>
+                                            </ul>
+                                        </div>
+                                    </TabPanel>
+
+                                    <TabPanel>
+                                        <div className="single-tab-content">
+                                            <ul>
+                                                <li>
+                                                    CTO, Technical Co-founder<span> - DollaRide</span> 2017 - Current
+                                                </li>
+                                                <li>
+                                                    Software Engineering Consultant<span> - Truss Software </span> 2018 - Current
+                                                </li>
+                                                <li>
+                                                    Software Engineering Consultant<span> - Supportful </span> 2018
+                                                </li>
+                                                <span>***Complete resume available upon request.***</span>
                                             </ul>
                                         </div>
                                     </TabPanel>
@@ -47,31 +64,10 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                   <a href="https://www.forbes.com/sites/laurencebradford/2017/06/30/changing-careers-in-20-weeks-with-chris-coles/#72b1dfe6e057" target="_blank">Forbes <span>Changing Tech Careers in 20 Weeks with Chris Coles</span></a>
                                                </li>
                                                <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-
-
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <a href="https://abernathymagazine.com/tech-spotlight-chris-coles/" target="_blank">Abernathy Magazine <span>Tech Spotlight: Christopher Coles</span></a>
                                                </li>
                                            </ul>
                                        </div>
@@ -81,13 +77,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   BS in Political Science, Economics, Anthropology<span> - Columbia University, New York, NY</span> - 2011 (not completed)
                                                </li>
                                            </ul>
                                        </div>
