@@ -1,0 +1,12 @@
+- name: Deploy
+  uses: peaceiris/actions-gh-pages@v4
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    publish_dir: ./public
