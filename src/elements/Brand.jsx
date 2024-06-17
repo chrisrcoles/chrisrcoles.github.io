@@ -54,7 +54,7 @@ class Brand extends Component{
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.simplifeye.com" target="_blank">
+                        <a href="https://vynedental.com/blog/vyne-dental-acquires-simplifeye/" target="_blank">
                             <div>
                                 <img src="/assets/images/brand/brand-08.svg" alt="Logo Images"/>
                             </div>

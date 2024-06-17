@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Node Version
+
+```
+shell % node -v
+v12.0.0
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
